@@ -1,9 +1,16 @@
 Name:           htravistest
 Version:        0.1
-License-file:   BSD
+License-file:   LICENSE
+Cabal-Version:  >= 1.9.2
 Author:         Mikeccy
 Maintainer:     Mikeccy
-build-depends:  base, QuickCheck
+Build-type:     Simple
 
-Executable:     htravistest
-Main-Is:        Test.hs
+Executable htravistest
+    Main-is:        Test.hs
+    Build-depends:  base, QuickCheck
+
+Test-Suite Test
+    type:           exitcode-stdio-1.0
+    main-is:        Test.hs
+    build-depends:  base, QuickCheck
