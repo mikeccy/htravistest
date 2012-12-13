@@ -1,0 +1,9 @@
+Name:           htravistest
+Version:        0.1
+License-file:   BSD
+Author:         Mikeccy
+Maintainer:     Mikeccy
+build-depends:  base
+
+Executable:     htravistest
+Main-Is:        Test.hs
