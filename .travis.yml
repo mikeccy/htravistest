@@ -1,1 +1,2 @@
 language: haskell
+script: runghc -isrc -itests Test.hs --plain
