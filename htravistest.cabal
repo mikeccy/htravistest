@@ -3,7 +3,7 @@ Version:        0.1
 License-file:   BSD
 Author:         Mikeccy
 Maintainer:     Mikeccy
-build-depends:  base
+build-depends:  base, QuickCheck
 
 Executable:     htravistest
 Main-Is:        Test.hs
